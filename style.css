@@ -1,0 +1,91 @@
+/* --- STILE GENERALE --- */
+body {
+  background-color: #FAF9F6;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* --- TITOLI --- */
+h1 {
+  color: #B8860B;
+  margin-top: 30px;
+  text-shadow: 1px 1px 2px #d4af37;
+}
+
+h3 {
+  color: #B8860B;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #B8860B;
+  border-bottom: 2px solid #B8860B;
+  width: fit-content;
+  margin: 40px auto 10px;
+  padding-bottom: 5px;
+}
+
+/* --- IMMAGINE --- */
+img {
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+
+
+/* --- PARAGRAFI --- */
+p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* --- LISTA CARATTERISTICHE --- */
+ul {
+  list-style-type: square;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+li {
+  margin: 5px 0;
+}
+
+/* --- BOTTONE --- */
+button {
+  background-color: #B8860B;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+
+
+/* --- LINK TORNA SU --- */
+a {
+  text-decoration: none;
+  color: #B8860B;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* --- SPACING FINALE --- */
+.footer {
+  margin: 40px 0;
+}
+
